@@ -7,12 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40E46C8230FD618006C9DF0 /* StringValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E46C7230FD618006C9DF0 /* StringValidation.swift */; };
+		C40E46CA230FD62D006C9DF0 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E46C9230FD62D006C9DF0 /* KeyboardHandler.swift */; };
+		C40E46CE230FDE17006C9DF0 /* UIViewController+EmptyBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E46CD230FDE16006C9DF0 /* UIViewController+EmptyBackButton.swift */; };
+		C40E46D0230FE12A006C9DF0 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E46CF230FE12A006C9DF0 /* NavigationViewController.swift */; };
+		C412174D23101AD200673572 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412174C23101AD200673572 /* AppCoordinator.swift */; };
+		C412175123101B9000673572 /* ServiceAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412175023101B9000673572 /* ServiceAssembler.swift */; };
+		C412175323101BED00673572 /* ModuleAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412175223101BED00673572 /* ModuleAssembler.swift */; };
+		C412175523101D9C00673572 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412175423101D9C00673572 /* RootCoordinator.swift */; };
+		C412175723101F5F00673572 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412175623101F5F00673572 /* Presentable.swift */; };
+		C412175C2310252600673572 /* AuthorizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412175B2310252600673572 /* AuthorizationController.swift */; };
+		C412175F231027AB00673572 /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412175E231027AB00673572 /* UILabel+Style.swift */; };
+		C41217612310299300673572 /* UITextField+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41217602310299300673572 /* UITextField+Style.swift */; };
+		C412176723102C4300673572 /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412176623102C4300673572 /* UIButton+Style.swift */; };
+		C4121769231030A700673572 /* UIColor+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4121768231030A700673572 /* UIColor+Constants.swift */; };
+		C412176F2310416200673572 /* UILabel+Custom attr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412176E2310416200673572 /* UILabel+Custom attr.swift */; };
+		C412177123104EAC00673572 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C412177023104EAC00673572 /* CustomTextField.swift */; };
 		C423A75C230EE5C80082161F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A75B230EE5C80082161F /* AppDelegate.swift */; };
-		C423A75E230EE5C80082161F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A75D230EE5C80082161F /* ViewController.swift */; };
-		C423A761230EE5C80082161F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C423A75F230EE5C80082161F /* Main.storyboard */; };
 		C423A763230EE5CA0082161F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C423A762230EE5CA0082161F /* Assets.xcassets */; };
 		C423A766230EE5CA0082161F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C423A764230EE5CA0082161F /* LaunchScreen.storyboard */; };
 		C423A771230EE5CA0082161F /* HHTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A770230EE5CA0082161F /* HHTestAppTests.swift */; };
+		C423A780230EE8FB0082161F /* AuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A77F230EE8FB0082161F /* AuthorizationService.swift */; };
+		C423A782230EE9070082161F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A781230EE9070082161F /* Constants.swift */; };
+		C423A785230EEA1E0082161F /* UIColor+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A784230EEA1E0082161F /* UIColor+init.swift */; };
+		C423A78D230EEC480082161F /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A78C230EEC480082161F /* UIViewController+ShowAlert.swift */; };
+		C423A791230EFD170082161F /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C423A790230EFD170082161F /* Authorization.storyboard */; };
+		C423A793230EFD270082161F /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C423A792230EFD270082161F /* Root.storyboard */; };
+		C423A798230EFDB60082161F /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A797230EFDB60082161F /* Storyboard.swift */; };
+		C423A79C230EFE2A0082161F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C423A79B230EFE2A0082161F /* Alamofire.framework */; };
+		C423A79E230EFEB00082161F /* Completion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A79D230EFEB00082161F /* Completion.swift */; };
+		C423A7A1230F002B0082161F /* DarkskyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A7A0230F002B0082161F /* DarkskyResponse.swift */; };
+		C423A7A3230F01900082161F /* AuthorizationServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A7A2230F01900082161F /* AuthorizationServiceError.swift */; };
+		C423A7A5230F08620082161F /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A7A4230F08620082161F /* AuthorizationViewController.swift */; };
+		C423A7A7230F0A740082161F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A7A6230F0A740082161F /* RootViewController.swift */; };
+		C423A7AB230F0BCA0082161F /* EnterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423A7AA230F0BCA0082161F /* EnterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +54,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C40E46C7230FD618006C9DF0 /* StringValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringValidation.swift; sourceTree = "<group>"; };
+		C40E46C9230FD62D006C9DF0 /* KeyboardHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
+		C40E46CD230FDE16006C9DF0 /* UIViewController+EmptyBackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+EmptyBackButton.swift"; sourceTree = "<group>"; };
+		C40E46CF230FE12A006C9DF0 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		C412174C23101AD200673572 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		C412175023101B9000673572 /* ServiceAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAssembler.swift; sourceTree = "<group>"; };
+		C412175223101BED00673572 /* ModuleAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleAssembler.swift; sourceTree = "<group>"; };
+		C412175423101D9C00673572 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		C412175623101F5F00673572 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		C412175B2310252600673572 /* AuthorizationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationController.swift; sourceTree = "<group>"; };
+		C412175E231027AB00673572 /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
+		C41217602310299300673572 /* UITextField+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Style.swift"; sourceTree = "<group>"; };
+		C412176623102C4300673572 /* UIButton+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
+		C4121768231030A700673572 /* UIColor+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Constants.swift"; sourceTree = "<group>"; };
+		C412176A2310353F00673572 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
+		C412176E2310416200673572 /* UILabel+Custom attr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Custom attr.swift"; sourceTree = "<group>"; };
+		C412177023104EAC00673572 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		C423A758230EE5C80082161F /* HHTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C423A75B230EE5C80082161F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C423A75D230EE5C80082161F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C423A760230EE5C80082161F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C423A75B230EE5C80082161F /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 2; };
 		C423A762230EE5CA0082161F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C423A765230EE5CA0082161F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C423A767230EE5CA0082161F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C423A76C230EE5CA0082161F /* HHTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C423A770230EE5CA0082161F /* HHTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHTestAppTests.swift; sourceTree = "<group>"; };
 		C423A772230EE5CA0082161F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C423A77F230EE8FB0082161F /* AuthorizationService.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AuthorizationService.swift; sourceTree = "<group>"; tabWidth = 2; };
+		C423A781230EE9070082161F /* Constants.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; tabWidth = 2; };
+		C423A784230EEA1E0082161F /* UIColor+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+init.swift"; sourceTree = "<group>"; };
+		C423A78C230EEC480082161F /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
+		C423A790230EFD170082161F /* Authorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
+		C423A792230EFD270082161F /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
+		C423A797230EFDB60082161F /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		C423A79B230EFE2A0082161F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		C423A79D230EFEB00082161F /* Completion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Completion.swift; sourceTree = "<group>"; };
+		C423A7A0230F002B0082161F /* DarkskyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkskyResponse.swift; sourceTree = "<group>"; };
+		C423A7A2230F01900082161F /* AuthorizationServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationServiceError.swift; sourceTree = "<group>"; };
+		C423A7A4230F08620082161F /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		C423A7A6230F0A740082161F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		C423A7AA230F0BCA0082161F /* EnterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C423A79C230EFE2A0082161F /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +114,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C412174A23101A7900673572 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C423A7A4230F08620082161F /* AuthorizationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C41217582310250700673572 /* AuthorizationController */ = {
+			isa = PBXGroup;
+			children = (
+				C412175B2310252600673572 /* AuthorizationController.swift */,
+			);
+			path = AuthorizationController;
+			sourceTree = "<group>";
+		};
+		C412175D2310279E00673572 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				C412176623102C4300673572 /* UIButton+Style.swift */,
+				C412175E231027AB00673572 /* UILabel+Style.swift */,
+				C412176E2310416200673572 /* UILabel+Custom attr.swift */,
+				C41217602310299300673572 /* UITextField+Style.swift */,
+				C412177023104EAC00673572 /* CustomTextField.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		C423A74F230EE5C80082161F = {
 			isa = PBXGroup;
 			children = (
 				C423A75A230EE5C80082161F /* HHTestApp */,
 				C423A76F230EE5CA0082161F /* HHTestAppTests */,
 				C423A759230EE5C80082161F /* Products */,
+				C423A79A230EFE2A0082161F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +164,13 @@
 		C423A75A230EE5C80082161F /* HHTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				C423A77D230EE5E50082161F /* Resources */,
+				C423A788230EEC140082161F /* Common */,
+				C423A77B230EE5D60082161F /* Services */,
+				C423A79F230F001E0082161F /* Models */,
+				C423A77C230EE5DF0082161F /* Presentation */,
 				C423A75B230EE5C80082161F /* AppDelegate.swift */,
-				C423A75D230EE5C80082161F /* ViewController.swift */,
-				C423A75F230EE5C80082161F /* Main.storyboard */,
-				C423A762230EE5CA0082161F /* Assets.xcassets */,
-				C423A764230EE5CA0082161F /* LaunchScreen.storyboard */,
+				C412174C23101AD200673572 /* AppCoordinator.swift */,
 				C423A767230EE5CA0082161F /* Info.plist */,
 			);
 			path = HHTestApp;
@@ -96,6 +185,124 @@
 			path = HHTestAppTests;
 			sourceTree = "<group>";
 		};
+		C423A77B230EE5D60082161F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C423A77F230EE8FB0082161F /* AuthorizationService.swift */,
+				C423A7A2230F01900082161F /* AuthorizationServiceError.swift */,
+				C412175023101B9000673572 /* ServiceAssembler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C423A77C230EE5DF0082161F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C423A796230EFD870082161F /* Common */,
+				C423A787230EEBEC0082161F /* Authorization */,
+				C423A786230EEBE50082161F /* Root */,
+				C423A764230EE5CA0082161F /* LaunchScreen.storyboard */,
+				C412175223101BED00673572 /* ModuleAssembler.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C423A77D230EE5E50082161F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C423A762230EE5CA0082161F /* Assets.xcassets */,
+				C423A781230EE9070082161F /* Constants.swift */,
+				C4121768231030A700673572 /* UIColor+Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C423A783230EEA040082161F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C423A78C230EEC480082161F /* UIViewController+ShowAlert.swift */,
+				C423A784230EEA1E0082161F /* UIColor+init.swift */,
+				C40E46CD230FDE16006C9DF0 /* UIViewController+EmptyBackButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C423A786230EEBE50082161F /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				C423A794230EFD750082161F /* ViewController */,
+				C423A792230EFD270082161F /* Root.storyboard */,
+				C412175423101D9C00673572 /* RootCoordinator.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C423A787230EEBEC0082161F /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				C41217582310250700673572 /* AuthorizationController */,
+				C412174A23101A7900673572 /* ViewController */,
+				C423A790230EFD170082161F /* Authorization.storyboard */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		C423A788230EEC140082161F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C423A789230EEC1A0082161F /* Helpers */,
+				C423A783230EEA040082161F /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C423A789230EEC1A0082161F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C40E46C9230FD62D006C9DF0 /* KeyboardHandler.swift */,
+				C423A79D230EFEB00082161F /* Completion.swift */,
+				C40E46C7230FD618006C9DF0 /* StringValidation.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C423A794230EFD750082161F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C423A7A6230F0A740082161F /* RootViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C423A796230EFD870082161F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C412175D2310279E00673572 /* Extentions */,
+				C423A797230EFDB60082161F /* Storyboard.swift */,
+				C423A7AA230F0BCA0082161F /* EnterButton.swift */,
+				C40E46CF230FE12A006C9DF0 /* NavigationViewController.swift */,
+				C412175623101F5F00673572 /* Presentable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C423A79A230EFE2A0082161F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C412176A2310353F00673572 /* FBSnapshotTestCase.framework */,
+				C423A79B230EFE2A0082161F /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C423A79F230F001E0082161F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C423A7A0230F002B0082161F /* DarkskyResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +313,7 @@
 				C423A754230EE5C80082161F /* Sources */,
 				C423A755230EE5C80082161F /* Frameworks */,
 				C423A756230EE5C80082161F /* Resources */,
+				C423A799230EFE030082161F /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -177,9 +385,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C423A791230EFD170082161F /* Authorization.storyboard in Resources */,
 				C423A766230EE5CA0082161F /* LaunchScreen.storyboard in Resources */,
+				C423A793230EFD270082161F /* Root.storyboard in Resources */,
 				C423A763230EE5CA0082161F /* Assets.xcassets in Resources */,
-				C423A761230EE5C80082161F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +401,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C423A799230EFE030082161F /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C423A754230EE5C80082161F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C423A75E230EE5C80082161F /* ViewController.swift in Sources */,
+				C412177123104EAC00673572 /* CustomTextField.swift in Sources */,
+				C40E46CA230FD62D006C9DF0 /* KeyboardHandler.swift in Sources */,
+				C423A78D230EEC480082161F /* UIViewController+ShowAlert.swift in Sources */,
 				C423A75C230EE5C80082161F /* AppDelegate.swift in Sources */,
+				C40E46D0230FE12A006C9DF0 /* NavigationViewController.swift in Sources */,
+				C412175323101BED00673572 /* ModuleAssembler.swift in Sources */,
+				C423A7AB230F0BCA0082161F /* EnterButton.swift in Sources */,
+				C423A785230EEA1E0082161F /* UIColor+init.swift in Sources */,
+				C412174D23101AD200673572 /* AppCoordinator.swift in Sources */,
+				C412175123101B9000673572 /* ServiceAssembler.swift in Sources */,
+				C412175723101F5F00673572 /* Presentable.swift in Sources */,
+				C412175F231027AB00673572 /* UILabel+Style.swift in Sources */,
+				C412176F2310416200673572 /* UILabel+Custom attr.swift in Sources */,
+				C4121769231030A700673572 /* UIColor+Constants.swift in Sources */,
+				C40E46CE230FDE17006C9DF0 /* UIViewController+EmptyBackButton.swift in Sources */,
+				C412175C2310252600673572 /* AuthorizationController.swift in Sources */,
+				C423A7A7230F0A740082161F /* RootViewController.swift in Sources */,
+				C41217612310299300673572 /* UITextField+Style.swift in Sources */,
+				C423A79E230EFEB00082161F /* Completion.swift in Sources */,
+				C412176723102C4300673572 /* UIButton+Style.swift in Sources */,
+				C412175523101D9C00673572 /* RootCoordinator.swift in Sources */,
+				C423A7A3230F01900082161F /* AuthorizationServiceError.swift in Sources */,
+				C423A7A1230F002B0082161F /* DarkskyResponse.swift in Sources */,
+				C423A780230EE8FB0082161F /* AuthorizationService.swift in Sources */,
+				C423A798230EFDB60082161F /* Storyboard.swift in Sources */,
+				C423A7A5230F08620082161F /* AuthorizationViewController.swift in Sources */,
+				C423A782230EE9070082161F /* Constants.swift in Sources */,
+				C40E46C8230FD618006C9DF0 /* StringValidation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +479,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C423A75F230EE5C80082161F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C423A760230EE5C80082161F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C423A764230EE5CA0082161F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -361,7 +611,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HHTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,7 +624,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.alekla.HHTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -378,7 +633,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HHTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +646,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.alekla.HHTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

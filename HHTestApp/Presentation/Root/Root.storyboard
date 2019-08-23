@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vrJ-yf-7LL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="GZk-Ws-q48">
+            <objects>
+                <viewController storyboardIdentifier="RootViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UgY-be-aeI" customClass="RootViewController" customModule="HHTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YC9-9A-cnF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xi1-m5-rA1" customClass="EnterButton" customModule="HHTestApp" customModuleProvider="target">
+                                <rect key="frame" x="114" y="311.5" width="147" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9ab-5V-BWz"/>
+                                    <constraint firstAttribute="width" constant="147" id="sTl-83-gau"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="openAuthorization:" destination="UgY-be-aeI" eventType="touchUpInside" id="XUB-d7-6R8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xi1-m5-rA1" firstAttribute="centerX" secondItem="YC9-9A-cnF" secondAttribute="centerX" id="hXB-DV-EJd"/>
+                            <constraint firstItem="Xi1-m5-rA1" firstAttribute="centerY" secondItem="YC9-9A-cnF" secondAttribute="centerY" id="pbU-4F-orV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="79G-Lz-IzQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fTx-3f-BBS"/>
+                    <connections>
+                        <outlet property="enterButton" destination="Xi1-m5-rA1" id="ZqT-wk-0fj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q45-ZL-vyE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967.20000000000005" y="72.413793103448285"/>
+        </scene>
+        <!--Navigation View Controller-->
+        <scene sceneID="MyS-ug-Geq">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vrJ-yf-7LL" customClass="NavigationViewController" customModule="HHTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KXC-nj-mab">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UgY-be-aeI" kind="relationship" relationship="rootViewController" id="auq-Fu-PLm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iSo-DI-lSv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="72.413793103448285"/>
+        </scene>
+    </scenes>
+</document>
